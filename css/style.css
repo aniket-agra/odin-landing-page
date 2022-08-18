@@ -68,3 +68,15 @@ a {
     flex-wrap: wrap;
     justify-content: flex-start;
 }
+
+.middle-top .left .bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.left .bottom .text {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    color: #E5E7EB;
+}
