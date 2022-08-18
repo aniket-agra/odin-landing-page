@@ -1,5 +1,5 @@
 * {
-    border: 2px solid red;
+  border: 2px solid red;
 }
 
 body {
@@ -19,8 +19,8 @@ body {
 
 .header, .middle-top {
     background-color: #1F2937;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 420px;
+    padding-right: 420px;
 }
 
 .logo {
@@ -90,5 +90,14 @@ button {
     background-color: #3882F6;
     color: #F9FAF8;
     padding: 4px 24px;
-    border-radius: 8px;
+    border-radius: 6px;
+    border-style:solid;
+    border-color: #3882F6;
+}
+
+.middle-top .right {
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
