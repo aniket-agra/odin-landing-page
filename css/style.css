@@ -3,6 +3,7 @@
 }
 
 body {
+    height:100vh;
     font-family: Roboto, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
@@ -47,8 +48,10 @@ a {
 }
 
 .middle-top {
+    flex: 1;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .middle-top .left, .middle-top .right {
@@ -72,6 +75,7 @@ a {
 .middle-top .left .bottom {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 
 .left .bottom .text {
@@ -79,4 +83,12 @@ a {
     flex-wrap: wrap;
     font-size: 18px;
     color: #E5E7EB;
+    padding-bottom: 8px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 4px 24px;
+    border-radius: 8px;
 }
