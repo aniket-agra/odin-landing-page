@@ -14,8 +14,23 @@ body {
     background-color: #1F2937;
 }
 
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
 ul {
     list-style-type: none;
     padding: 0px;
     display: flex;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
 }
