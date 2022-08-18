@@ -3,6 +3,7 @@
 }
 
 body {
+    font-family: Roboto, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
 }
