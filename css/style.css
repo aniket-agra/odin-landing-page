@@ -18,16 +18,15 @@ body {
 
 .header, .middle-top {
     background-color: #1F2937;
-    padding-left: 48px;
-    padding-right: 48px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 48px;
-    font-weight: 900;
+    font-size: 24px;
     color: #F9FAF8;
 }
 
@@ -59,4 +58,13 @@ a {
 .middle-top .left {
     display: flex;
     flex-direction: column;
+}
+
+.middle-top .left .top {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
