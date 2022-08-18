@@ -46,3 +46,17 @@ a {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+.middle-top {
+    display: flex;
+    justify-content: center;
+}
+
+.middle-top .left, .middle-top .right {
+    flex: 1;
+}
+
+.middle-top .left {
+    display: flex;
+    flex-direction: column;
+}
