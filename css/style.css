@@ -54,6 +54,10 @@ a {
     align-items: center;
 }
 
+.middle-top .box {
+    display: flex;
+}
+
 .middle-top .left, .middle-top .right {
     flex: 1;
 }
@@ -61,6 +65,7 @@ a {
 .middle-top .left {
     display: flex;
     flex-direction: column;
+    padding-right: 32px;
 }
 
 .middle-top .left .top {
@@ -96,8 +101,9 @@ button {
 }
 
 .middle-top .right {
-    /* height: 100%; */
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: gray;
+    color:#E5E7EB;
 }
