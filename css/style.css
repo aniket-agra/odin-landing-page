@@ -219,3 +219,10 @@ button {
     padding: 4px 32px;
     margin-left: 160px;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
