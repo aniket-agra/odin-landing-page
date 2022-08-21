@@ -118,6 +118,15 @@ button {
     justify-content: center;
 }
 
+.middle-bottom .info-header {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding: 60px;
+}
+
 .middle-bottom .cards {
     display: flex;
     justify-content: space-evenly;
@@ -131,8 +140,11 @@ button {
 }
 
 .card img {
-    width: 200px;
-    height: 200px;
+    width: 190px;
+    height: 190px;
+    margin:auto;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
 }
 
 .card .text {
