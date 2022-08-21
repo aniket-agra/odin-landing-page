@@ -194,6 +194,8 @@ button {
     background-color: #3882F6;
     display: flex;
     border: solid #3882F6;
-    border-radius: 16px;
+    border-radius: 8px;
     justify-content: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
