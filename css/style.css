@@ -181,3 +181,10 @@ button {
     font-weight: bold;
     margin-right: 8px;
 }
+
+.call-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
