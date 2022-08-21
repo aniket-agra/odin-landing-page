@@ -19,6 +19,9 @@ body {
 
 .header, .middle-top {
     background-color: #1F2937;
+}
+
+.header, .middle-top, .middle-bottom {
     padding-left: 420px;
     padding-right: 420px;
 }
@@ -106,4 +109,33 @@ button {
     align-items: center;
     background-color: gray;
     color:#E5E7EB;
+}
+
+.middle-bottom {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.middle-bottom .cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards .card {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.card .text {
+    display: flex;
+    flex-wrap: wrap;
 }
