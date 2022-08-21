@@ -199,3 +199,12 @@ button {
     padding-top: 32px;
     padding-bottom: 32px;
 }
+
+.banner .text {
+    margin-right: 32px;
+    display: flex;
+    flex-direction: column;
+    color:#E5E7EB;
+    font-weight: bold;
+    font-size: 20px;
+}
