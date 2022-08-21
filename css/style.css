@@ -115,6 +115,7 @@ button {
     flex: 1;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .middle-bottom .cards {
@@ -131,8 +132,7 @@ button {
 .card img {
     width: 100px;
     height: 100px;
-    display: flex;
-    justify-content: center;
+    margin: auto;
 }
 
 .card .text {
