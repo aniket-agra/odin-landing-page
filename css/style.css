@@ -208,3 +208,8 @@ button {
     font-weight: bold;
     font-size: 20px;
 }
+
+.banner .sign-up {
+    font-weight: normal;
+    font-size:initial;
+}
