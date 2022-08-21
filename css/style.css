@@ -21,7 +21,7 @@ body {
     background-color: #1F2937;
 }
 
-.header, .middle-top, .middle-bottom {
+.header, .middle-top, .middle-bottom, .quote {
     padding-left: 420px;
     padding-right: 420px;
 }
@@ -151,4 +151,17 @@ button {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+}
+
+.quote {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    display: flex;
+    flex-wrap: wrap;
 }
