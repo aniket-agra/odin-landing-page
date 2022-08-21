@@ -201,7 +201,6 @@ button {
 }
 
 .banner .text {
-    margin-right: 32px;
     display: flex;
     flex-direction: column;
     color:#E5E7EB;
@@ -212,4 +211,11 @@ button {
 .banner .sign-up {
     font-weight: normal;
     font-size:initial;
+}
+
+.banner button {
+    align-self: center;
+    border-color: #E5E7EB;
+    padding: 4px 32px;
+    margin-left: 160px;
 }
