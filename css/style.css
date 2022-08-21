@@ -127,15 +127,16 @@ button {
     display: flex;
     flex-direction: column;
     width: 200px;
+    align-items: stretch;
 }
 
 .card img {
-    width: 100px;
-    height: 100px;
-    margin: auto;
+    width: 200px;
+    height: 200px;
 }
 
 .card .text {
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
 }
