@@ -225,4 +225,11 @@ button {
     justify-content: center;
     align-items: center;
     background-color: #1F2937;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer .text {
+    color: #E5E7EB;
+    font-size: 18px;
 }
