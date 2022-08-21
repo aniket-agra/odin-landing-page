@@ -1,5 +1,5 @@
 * {
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 body {
@@ -116,6 +116,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-bottom: 180px;
 }
 
 .middle-bottom .info-header {
@@ -124,7 +125,7 @@ button {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
-    padding: 30px;
+    padding: 60px;
 }
 
 .middle-bottom .cards {
