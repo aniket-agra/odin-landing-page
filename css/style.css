@@ -21,7 +21,7 @@ body {
     background-color: #1F2937;
 }
 
-.header, .middle-top, .middle-bottom, .quote {
+.header, .middle-top, .middle-bottom, .quote, .call-button {
     padding-left: 420px;
     padding-right: 420px;
 }
@@ -183,8 +183,17 @@ button {
 }
 
 .call-button {
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.banner {
+    flex: 1;
+    background-color: #3882F6;
+    display: flex;
+    border: solid #3882F6;
+    border-radius: 16px;
+    justify-content: center;
+}
