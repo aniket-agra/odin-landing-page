@@ -130,7 +130,8 @@ button {
 
 .middle-bottom .cards {
     display: flex;
-    justify-content: space-evenly;
+    padding-left: 100px;
+    /* justify-content: space-evenly; */
 }
 
 .cards .card {
@@ -138,6 +139,7 @@ button {
     flex-direction: column;
     width: 200px;
     align-items: stretch;
+    margin-right: 32px;
 }
 
 .card img {
@@ -168,6 +170,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    padding-left: 120px;
 }
 
 .quote-border .text {
@@ -180,7 +183,7 @@ button {
 
 .author {
     font-weight: bold;
-    margin-right: 8px;
+    margin-right: 32px;
 }
 
 .call-button {
@@ -196,9 +199,10 @@ button {
     display: flex;
     border: solid #3882F6;
     border-radius: 8px;
-    justify-content: center;
+    /* justify-content: center; */
     padding-top: 32px;
     padding-bottom: 32px;
+    padding-left: 100px;
 }
 
 .banner .text {
