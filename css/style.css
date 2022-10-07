@@ -5,7 +5,8 @@
 }
 
 body {
-    height:200vh;
+    height:100vh;
+    width: 100vw;
     font-family: Roboto, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
@@ -15,8 +16,8 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: 1vh;
+    padding-bottom: 2vh;
 }
 
 .header, .middle-top {
@@ -24,8 +25,8 @@ body {
 }
 
 .header, .middle-top, .middle-bottom, .quote, .call-button {
-    padding-left: 420px;
-    padding-right: 420px;
+    padding-left: 20vw;
+    padding-right: 20vw;
 }
 
 .logo {
@@ -57,6 +58,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 5vh;
 }
 
 .middle-top .box {
@@ -70,7 +72,7 @@ a {
 .middle-top .left {
     display: flex;
     flex-direction: column;
-    padding-right: 32px;
+    padding-right: 5vw;
 }
 
 .middle-top .left .top {
@@ -93,7 +95,7 @@ a {
     flex-wrap: wrap;
     font-size: 18px;
     color: #E5E7EB;
-    padding-bottom: 8px;
+    padding-bottom: 2vw;
 }
 
 button {
@@ -118,7 +120,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-bottom: 180px;
+    padding-bottom: 5vh;
 }
 
 .middle-bottom .info-header {
@@ -127,26 +129,27 @@ button {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
-    padding: 60px;
+    padding: 5vh;
 }
 
 .middle-bottom .cards {
     display: flex;
-    padding-left: 100px;
+    /* padding-left: 20vw; */
+    /* padding-right: 20vw; */
     /* justify-content: space-evenly; */
 }
 
 .cards .card {
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: auto;
     align-items: stretch;
-    margin-right: 32px;
+    margin-right: 5vw;
 }
 
 .card img {
-    width: 194px;
-    height: 194px;
+    width: 10vw;
+    height: 20vh;
     margin:auto;
     border: 3px solid #3882F6;
     border-radius: 16px;
@@ -164,15 +167,15 @@ button {
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 
 .quote-border {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    padding-left: 120px;
+    /* padding-left: 20vw; */
 }
 
 .quote-border .text {
@@ -185,7 +188,7 @@ button {
 
 .author {
     font-weight: bold;
-    margin-right: 32px;
+    /* margin-right: 1vw; */
 }
 
 .call-button {
@@ -193,6 +196,8 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 
 .banner {
@@ -201,10 +206,10 @@ button {
     display: flex;
     border: solid #3882F6;
     border-radius: 8px;
-    /* justify-content: center; */
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-left: 100px;
+    justify-content: space-between;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 2vw;
 }
 
 .banner .text {
@@ -224,7 +229,7 @@ button {
     align-self: center;
     border-color: #E5E7EB;
     padding: 4px 32px;
-    margin-left: 160px;
+    margin-right: 2vw;
 }
 
 .footer {
