@@ -6,7 +6,7 @@
 
 body {
     height:100vh;
-    width: 150vw;
+    width: 100vw;
     font-family: Roboto, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
